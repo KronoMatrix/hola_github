@@ -1,0 +1,44 @@
+.container {
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.box1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+
+    
+}
+
+.box2 {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.box3 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+.box4 {
+    width: 50px;
+    height: 50px;
+    background-color: goldenrod;
+
+    position: relative;
+    position: relative;
+    left: 60px;
+    top: 30px;
+}
