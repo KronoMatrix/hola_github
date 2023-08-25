@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 https://developer.mozilla.org/en-US/
 
 https://www.w3schools.com/html/html_elements.asp
 
+=======
+https://developer.mozilla.org/en-US/
+
+https://www.w3schools.com/html/html_elements.asp
+
+>>>>>>> 8ef57e047829c99ce27bf272067677b7d8ccd240
 https://code.visualstudio.com/

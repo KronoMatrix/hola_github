@@ -1,0 +1,8 @@
+.black-elemento {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: lightcyan;
+    border: 2px solid blue;
+    padding: 10px;
+}
