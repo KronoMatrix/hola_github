@@ -1,0 +1,133 @@
+div {
+    border: 4px solid #0134ff;
+    background: #080303;
+    color: #f80b0b;
+    padding: 10px;
+}
+
+div:hover {
+    border: 4px solid #B40000;
+}
+
+.grid-template-columns{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid-template-rows{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.grid-template-columns-rows{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
+.gap {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 10px;
+}
+
+.column-gap /*este nombre es de la clase*/{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 10px;
+}
+
+.rows-gap {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 10px;
+}
+
+.grid-template-columns-fracciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-template-columns-fracciones-repeat {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.grid-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 70% 30%;
+    column-gap: 20px;
+}
+
+.grid-inside-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+}
+article {
+    border: 2px solid blueviolet;
+    background-color: #B40000;
+    color: black;
+}
+
+.justify-items-start{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20%;
+    justify-items: stretch;
+}
+
+.justify-items-center{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20%;
+    justify-items: center;
+}
+
+.justify-items-end{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20%;
+    justify-items: end;
+}
+
+.justify-self{
+    display: grid;
+    justify-self: start;
+}
+
+.align-items-start{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    height: 100px;
+    align-items: start;
+    border: 3px solid #0134ff;
+}
+
+.align-items-center{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    height: 100px;
+    align-items: center;
+    border: 3px solid #0134ff;
+}
+
+.align-items-end{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    height: 100px;
+    align-items: end;
+    border: 3px solid #0134ff;
+}
+
+.align-self{
+    align-self: start;
+}
