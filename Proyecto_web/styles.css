@@ -11,14 +11,11 @@ div:hover{
 .container {
     display: grid;
     background-color: wheat;
-    grid-column: 1fr 1fr 1fr;
-    grid-row: 50vh 50vh;
-}
+    grid-column: repeat (2, 1fr);
+    }
 
 .nav-bar {
     display: flex;
-    grid-column: 20px 1fr 20px;
-    grid-row: 25vh 25vh 25vh 25vh;
     justify-content: space-between;
 }
 
@@ -42,7 +39,7 @@ ul>li {
 }
 
 .imagen-promos {
-    display: grid;
+    display: flex;
     justify-items: center;
    
 }
