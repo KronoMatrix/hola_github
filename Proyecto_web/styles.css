@@ -11,17 +11,23 @@ div:hover{
 .container {
     display: grid;
     background-color: wheat;
-    grid-column: repeat (2, 1fr);
+    grid-template-columns: 20px 1fr;
     }
+
+nav {
+    grid-column: 2 / 2;
+}
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
 }
 
 .logo {
     display: flex;
     gap: 12px ;
+    border-radius: 5px, 10px, 15px, 20px;
 }
 
 ul {
@@ -29,7 +35,7 @@ ul {
     gap: 12px;
 }
 
-ul>li {
+ul > li {
     list-style: none;
     
 }
