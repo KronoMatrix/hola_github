@@ -5,35 +5,46 @@
 }
 
 div:hover{
-    border: 4px solid #176585 ;
+    border: 4px solid #e4491c ;
 }
 
 .container {
     display: grid;
-    grid-column: 20px 1fr 20px;
-    grid-row: 10vh 30vh 40vh 20vh;
-}
-
-nav, section, main, footer {
-    grid-column: 2/2 ;
+    background-color: wheat;
+    grid-column: 1fr 1fr 1fr;
+    grid-row: 50vh 50vh;
 }
 
 .nav-bar {
     display: flex;
+    grid-column: 20px 1fr 20px;
+    grid-row: 25vh 25vh 25vh 25vh;
     justify-content: space-between;
 }
 
-/*ul>li {
+.logo {
+    display: flex;
+    gap: 12px ;
+}
+
+ul {
+    display: flex;
+    gap: 12px;
+}
+
+ul>li {
     list-style: none;
     
-}*/
+}
 
 .promos {
     display: flex;
 }
 
 .imagen-promos {
-    width: 20%;
+    display: grid;
+    justify-items: center;
+   
 }
 
 .dashboard {
@@ -44,5 +55,6 @@ nav, section, main, footer {
 
 .card-items {
     display: inline;
+    gap: 15px;
 
 }
