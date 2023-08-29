@@ -11,11 +11,11 @@ div:hover{
 .container {
     display: grid;
     background-color: wheat;
-    grid-template-columns: 20px 1fr;
+    grid-template-columns: 1fr;
     }
 
 nav {
-    grid-column: 2 / 2;
+    grid-column: 1 / 1;
 }
 
 .nav-bar {
