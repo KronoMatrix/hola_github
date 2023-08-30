@@ -5,7 +5,7 @@
 }
 
 div:hover{
-    border: 4px solid #e4491c ;
+    border: 4px transparent ;
 }
 
 .container {
@@ -54,11 +54,12 @@ ul > li {
 
 .promos {
     display: flex;
+    justify-content: center;
 }
 
 .imagen-promos {
     display: flex;
-    justify-items: center;
+    justify-content: space-between;
    
 }
 
@@ -69,7 +70,7 @@ ul > li {
 }
 
 .card-items :hover {
-    border: 4px transparent;
+    border: 4px solid #e4491c;
 
 }
 .card-container {
