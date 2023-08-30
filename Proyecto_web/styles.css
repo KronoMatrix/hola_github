@@ -14,14 +14,21 @@ div:hover{
     grid-template-columns: 1fr;
     }
 
-nav {
-    grid-column: 1 / 1;
-}
-
 .nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 16px;
+}
+
+#foto {
+    width: 20%;
+    height: 25%;
+    border-radius: 60%;
+    display: flex;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .logo {
