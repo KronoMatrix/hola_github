@@ -136,8 +136,27 @@ ul > li {
     padding: 32px;
 }
 
+.salas .card-container .card-items {
+    cursor: pointer;
+    opacity: .7;
+    transition: all 0.6s;
+}
+
+.salas .card-container .card-items:hover{
+    opacity: 1;
+}
+
 .colchones {
     padding: 32px;
+}
+
+.colchones .card-container .card-items {
+    opacity: .7;
+    transition: all 0.6s;
+}
+
+.colchones .card-container .card-items:hover{
+    opacity: 1;
 }
 footer {
     display: flex;
