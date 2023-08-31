@@ -158,6 +158,20 @@ ul > li {
 .colchones .card-container .card-items:hover{
     opacity: 1;
 }
+
+.sillas {
+    padding: 32px;
+}
+
+.sillas .card-container .card-items {
+    opacity: .7;
+    transition: all 0.6s;
+}
+
+.sillas .card-container .card-items:hover{
+    opacity: 1;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
